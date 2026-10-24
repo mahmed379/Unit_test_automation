@@ -1,0 +1,6 @@
+test_id,input_string,pattern,expected_match,expected_search
+TC_Q_W01,hello123world,^[a-z]+[0-9]+[a-z]+$,True,True
+TC_Q_W02,HELLO_WORLD,^[a-z]+$,False,False
+TC_Q_W03,123456,^[0-9]+$,True,True
+TC_Q_W04,abc_xyz,xyz,False,True
+TC_Q_W05,,^$,True,True
