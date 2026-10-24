@@ -1,0 +1,6 @@
+test_id,score,threshold,expected_lt,expected_le,expected_eq,expected_ge,expected_gt
+TC_Q_M01,49,50,True,True,False,False,False
+TC_Q_M02,50,50,False,True,True,True,False
+TC_Q_M03,51,50,False,False,False,True,True
+TC_Q_M04,0,0,False,True,True,True,False
+TC_Q_M05,-1,0,True,True,False,False,False
