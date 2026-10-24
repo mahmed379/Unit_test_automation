@@ -1,5 +1,11 @@
 *.py[cod]
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
 # C extensions
 *.so
 
@@ -21,24 +27,32 @@ __pycache__
 
 # Installer logs
 pip-log.txt
+pip-wheel-metadata/
 
 # Unit test / coverage reports
 .coverage
+.coverage.*
+htmlcov/
 .tox
 nosetests.xml
 .pytest_cache/
 
+# Excel temporary lock files
+~$*.xlsx
+
 # Translations
 *.mo
+
+# IDE / Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # Mr Developer
 .mr.developer.cfg
 .project
 .pydevproject
 
-# Pycharm
-.idea
-
 *.db.yml
-
 .DS_Store
