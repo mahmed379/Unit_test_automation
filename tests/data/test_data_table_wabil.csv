@@ -1,0 +1,6 @@
+test_id,product_name,category,price,expected_id
+TC_T_W01,Laptop,Electronics,1200,1
+TC_T_W02,Mouse,Electronics,25,2
+TC_T_W03,Keyboard,Electronics,75,3
+TC_T_W04,Desk Lamp,Furniture,45,4
+TC_T_W05,Notebook,Stationery,5,5
